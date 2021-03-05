@@ -8,7 +8,6 @@
 body{
   font-family: 'Montserrat', sans-serif;
   min-width: 1200px;
-  font-size: 14px;
   color: rgb(51, 71, 91);
 }
 
@@ -44,6 +43,7 @@ a{
   border-radius: 5px;
   padding: 10px 10px;
 }
+
 
 /* fixed navbar */
 .fixnav{
@@ -128,3 +128,45 @@ a{
 }
 
 /* la parte del jumbotron */
+.jumbotron{
+  position: relative;
+  height: 470px;
+  background-image: url(../img/jumbotron.png);
+  background-color: rgb(255, 244, 239);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.jumbo-box{
+  width: 80%;
+  height: 470px;
+  margin: auto;
+  background-color: rgba(118, 190, 192, 0.336);
+}
+
+.jumbotron-txt.w-50{
+  padding-right: 100px;
+}
+
+.jumbotron-txt{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jumbotron-txt h1{
+  font-size: 3.5em;
+  padding-bottom: 30px;
+}
+
+.green-box{
+  position: absolute;
+  margin-top: -65px;
+  height: 70px;
+  width: 100%;
+  border-top: 2px solid rgb(89, 131, 142);
+  border-bottom: 2px solid rgb(89, 131, 142);
+  background-color: rgb(156, 220, 216);
+  overflow: hidden;
+}
