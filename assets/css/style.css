@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body{
@@ -52,6 +53,7 @@ a{
   width: 100%;
   border-bottom: 1px solid black;
   background-color: rgb(189, 206, 223);
+  z-index: 9999;
 }
 
 .fixnav-box{
@@ -67,7 +69,7 @@ a{
 }
 
 .nav-box2{
-  padding-left: 361px;
+  padding-left: 331px;
 }
 
 .grp-thing{
@@ -106,7 +108,6 @@ a{
   height: 185px;
   width: 100%;
   padding-top: 100px;
-  background-color: rgba(182, 136, 255, 0.685);
 }
 
 .menuhub-box{
@@ -130,7 +131,7 @@ a{
 /* la parte del jumbotron */
 .jumbotron{
   position: relative;
-  height: 470px;
+  height: 570px;
   background-image: url(../img/jumbotron.png);
   background-color: rgb(255, 244, 239);
   background-size: 1000px;
@@ -142,7 +143,6 @@ a{
   width: 80%;
   height: 470px;
   margin: auto;
-  background-color: rgba(118, 190, 192, 0.336);
 }
 
 .jumbotron-txt.w-50{
@@ -160,13 +160,58 @@ a{
   padding-bottom: 30px;
 }
 
+.jumbotron-txt p{
+  font-size: 1em;
+  padding-bottom: 30px;
+}
+
+
+.btn.btn.orange-btn.big{
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
 .green-box{
   position: absolute;
-  margin-top: -65px;
-  height: 70px;
+  margin-top: 40px;
+  height: 60px;
   width: 100%;
   border-top: 2px solid rgb(89, 131, 142);
   border-bottom: 2px solid rgb(89, 131, 142);
   background-color: rgb(156, 220, 216);
   overflow: hidden;
+}
+
+/* parte col cubo */
+.grey-cube{
+  background-color: rgb(244, 249, 253);
+}
+
+.box-cubo{
+  height: 270px;
+}
+
+.box-cubo .cubo{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.cubo .cubo-txt{
+  width: 73%;
+  margin: auto;
+}
+
+.cubo img{
+  height: 150px;
+  margin-top: 50px;
+}
+
+.grey-cube .free-crm{
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  height: 250px;
+  background-color: crimson;
+  border-radius: 5px;
 }
