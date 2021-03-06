@@ -211,7 +211,51 @@ a{
   width: 80%;
   margin: auto;
   margin-top: 40px;
-  height: 250px;
-  background-color: crimson;
+  height: 200px;
+  background-color: rgb(189, 131, 144);
   border-radius: 5px;
+  box-shadow: 2px 2px 0px 0px black;
+}
+
+.crm-book{
+  width: 30%;
+  height: 150px;
+}
+
+.crm-book img{
+  height: 150px;
+  width: 150px;
+  line-height: 150px;
+  display: block;
+}
+
+.crm-txt {
+  width: 70%;
+  margin-top: 50px;
+}
+
+.crm-txt h1{
+  margin-bottom: 20px;
+}
+
+.crm-txt p{
+  margin-bottom: 20px;
+}
+
+
+.pop-list ul{
+  list-style: none;
+  display: inline-block;
+}
+
+.pop-list li{
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.fas.fa-check-circle{
+  color: blue;
+  padding-left: 5px;
+  padding-right: 5px;
 }
