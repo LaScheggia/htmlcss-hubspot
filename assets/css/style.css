@@ -227,7 +227,7 @@ a{
   margin-bottom: 40px;
   height: 270px;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 2px 2px 5px 1px black;
 }
 
 .crm-book{
@@ -296,14 +296,13 @@ a{
   width: 80%;
   margin: auto;
   border-radius: 5px;
-  margin-bottom: 50px;
 }
 
 .first, .third{
-  background-color: white;
   height: 600px;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px 2px black;
+  background-color: white;
+  box-shadow: 2px 2px 5px 1px black;
 }
 
 .sec{
@@ -311,7 +310,8 @@ a{
   margin-left: 2.5%;
   margin-right: 2.5%;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px 2px black;
+  background-color: white;
+  box-shadow: 2px 2px 5px 1px black;
 }
 
 .box-threesec img{
