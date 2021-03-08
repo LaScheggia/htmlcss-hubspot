@@ -72,6 +72,10 @@ a{
   line-height: 40px;
 }
 
+.nav-box1 a{
+  color: rgb(50, 73, 91);
+}
+
 .nav-box2{
   padding-left: 331px;
 }
@@ -216,7 +220,6 @@ a{
 }
 
 /* parte che dice free crm */
-
 .grey-cube .free-crm{
   width: 80%;
   margin: auto;
@@ -224,7 +227,7 @@ a{
   margin-bottom: 40px;
   height: 270px;
   border-radius: 5px;
-  box-shadow: 2px 2px 0px 0px black;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .crm-book{
@@ -232,11 +235,18 @@ a{
   height: 150px;
 }
 
+.the-book{
+  text-align: center;
+  padding: 10px;
+}
+
 .crm-book img{
-  height: 150px;
-  width: 150px;
+  text-align: center;
+  height: 160px;
+  width: 160px;
   line-height: 150px;
   display: block;
+  margin: 20px auto;
 }
 
 .crm-txt {
@@ -253,6 +263,13 @@ a{
 }
 
 /* lista pop features */
+
+.pop-line{
+  padding-left: 50px;
+  display: inline-block;
+  width: 250px;
+  border-top: 2px solid black;
+}
 
 .pop-list ul{
   list-style: none;
@@ -286,7 +303,7 @@ a{
   background-color: white;
   height: 600px;
   border-radius: 5px;
-  box-shadow: 2px 2px 0px 0px black;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .sec{
@@ -294,7 +311,7 @@ a{
   margin-left: 2.5%;
   margin-right: 2.5%;
   border-radius: 5px;
-  box-shadow: 2px 2px 0px 0px black;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .box-threesec img{
@@ -318,6 +335,12 @@ a{
   width: 70%;
   margin: 0 auto;
   height: 2px;
+}
+
+.mini-box .fake-hr{
+  width: 80%;
+  margin: auto;
+  border-bottom: 2px solid grey;
 }
 
 .mini-box2{
