@@ -407,3 +407,66 @@ a{
 .row-2 .quatros{
   border-bottom: none;
 }
+
+.white-sec{
+  background-color: wheat;
+  height: 800px;
+}
+
+.logo-box{
+  width: 65%;
+  height: 230px;
+  margin: auto;
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+
+.sixfour{
+  width: 40%;
+  height: 50%;
+}
+
+.logos{
+  width: 60%;
+  height: 50%;
+}
+
+.grow-up{
+  width: 80%;
+  height: 550px;
+  margin: auto;
+  background-color: rgb(238, 130, 180);
+  margin-bottom: 50px;
+}
+
+.line1 h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+
+.line2 p{
+  margin-bottom: 20px;
+  padding-right: 150px;
+}
+
+.logos li{
+  list-style: none;
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.logos img{
+  width: 149px;
+  height: 33px;
+}
+
+.logos .line1{
+  height: 50%;
+  margin-bottom: 20px
+}
+
+.logos .line2{
+  height: 50%;
+}
