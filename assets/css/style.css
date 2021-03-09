@@ -48,6 +48,7 @@ a{
   display: inline-block;
   border-radius: 5px;
   padding: 10px 10px;
+  cursor: pointer;
 }
 
 /* fixed navbar */
@@ -443,6 +444,13 @@ a{
   border-bottom: none;
 }
 
+h2::after{
+  content: '\002B';
+  font-size: 30px;
+  line-height: 45px;
+  vertical-align: middle;
+}
+
 /* parte coi logos */
 .white-sec{
   height: 650px;
@@ -492,8 +500,8 @@ a{
 }
 
 .logos img{
-  width: 149px;
-  height: 33px;
+  width: 100px;
+  height: 20px;
 }
 
 .logos .line1{
@@ -567,9 +575,18 @@ a{
   font-size: 0.8em;
 }
 
+.lst a:hover{
+  color: aquamarine;
+}
+
 .btn.blue-btn{
   background-color: white;
   margin-bottom: 15px;
+}
+
+.btn.blue-btn:hover{
+  background-color: rgb(207, 206, 206);
+  
 }
 
 .btn.blue-btn a{
@@ -587,6 +604,10 @@ li.socials i{
   padding-right: 15px;
 }
 
+.socials:hover{
+  color: aquamarine;
+}
+
 .langs{
   width: 80%;
   height: 50px;
@@ -602,6 +623,10 @@ li.socials i{
   line-height: 50px;
   display: inline-block;
   padding-right: 10px;
+}
+
+.langs a:hover{
+  color: aquamarine;
 }
 
 .credits{
@@ -627,4 +652,3 @@ li.socials i{
   display: inline-block;
   padding-right: 15px;
 }
-
